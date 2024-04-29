@@ -1,0 +1,6 @@
+# Below are some examples of libraries to install, this will configure the dev container for ML development
+# You can find package names and numbers at https://pypi.org/
+# You can also find some documentation on requirements.txt at https://pip.pypa.io/en/stable/user_guide/#requirements-files
+scikit-learn==1.4.0 
+pandas==2.2.0
+joblib==1.3.2

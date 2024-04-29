@@ -1,0 +1,1 @@
+# This file includes libraries used for developing the project, read requiements.txt and README.txt for details
