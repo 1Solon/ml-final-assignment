@@ -1,18 +1,31 @@
-# Python dev environment
+<div align="center">
 
-This is a simple python dev environment using docker.
+## ml-final-assignment
 
-## Requirements
+_Assignment to perform analysis on financial data in Python_
 
-- [Docker](https://www.docker.com/)
-- [Visual Studio Code](https://code.visualstudio.com/)
+</div>
 
-## How to use
+<div align="center">
 
-If you open this in visual studio code, it should give you a prompt to open the folder in a container. If not, you can open the command palette and search for `Remote-Containers: Open Folder in Container...` and select the folder.
+![GitHub Repo stars](https://img.shields.io/github/stars/1Solon/AS2-AES-Encryption?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/1Solon/AS2-AES-Encryption?style=for-the-badge)
 
-## How to add packages
+</div>
 
-You can add packages to the `requirements.txt` file and then either run `pip install -r requirements.txt` in the terminal inside the container, or restart the container. This will install the packages in the container.
+## Usage
+Open [main.ipynb](/src/C19349793.ipynb) in Jupyter Notebook or Jupyter Lab to view the analysis. You can also open it in [GitHub itself](https://github.com/1Solon/ml-final-assignment/blob/origin/src/C19349793.ipynb) to view the code and results. 
 
-Note: `requirements` and `requirements-dev` are separated so that you can install packages that are only needed for development in the dev container. This is useful for things like linters and formatters.
+## DevContainer
+This project includes a `devcontainer.json` file for use with Visual Studio Code. To use the devcontainer, simply open the project in Visual Studio Code and click the "Reopen in Container" button that appears in the bottom right corner of the window.
+
+## Acknowledgements
+This project makes use of examples from these links:
+
+* [Pandas Documentation](https://pandas.pydata.org/docs/)
+* [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
+* [Seaborn Documentation](https://seaborn.pydata.org/)
+* [Scikit-Learn Documentation](https://scikit-learn.org/stable/user_guide.html)
+* [Bank Analysis](https://www.kaggle.com/code/trongnghia96/bank-analysis/notebook)
+* [Classification in Bank Marketing](https://www.kaggle.com/code/muhammedsal98/classification-in-bank-marketing)
+
